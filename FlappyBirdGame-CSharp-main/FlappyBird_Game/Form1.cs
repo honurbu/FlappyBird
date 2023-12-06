@@ -9,6 +9,8 @@ namespace FlappyBird_Game
         int gravity = 5;
         int score = 0;
         bool isGameStarted = false;
+        int highestScore = 0; 
+
 
         public Form1()
         {
@@ -40,6 +42,11 @@ namespace FlappyBird_Game
                 {
                     EndGame();
                 }
+
+                if (score > highestScore)
+                {
+                    highestScore = score;
+                }
             }
         }
 
@@ -48,17 +55,24 @@ namespace FlappyBird_Game
             timer_GameControl.Stop();
             label1.Text = "GAME OVER! Press Enter to restart";
             isGameStarted = false;
+            label2.Visible = true;
 
-            // Boruların başlangıç konumunu sıfırla
             pictureBox_Bottom.Left = 800;
             picturebox_top.Left = 950;
 
-            // Kuşun başlangıç pozisyonunu ayarla
             pictureBox_Bird.Top = 100;
 
-            // Skoru sıfırla
             score = 0;
             label1.Text = "SCORE: " + score;
+
+            if (score > highestScore)
+            {
+                highestScore = score;
+            }
+
+            label3.Text = "Highest Score: " + highestScore;
+            pictureBox1.Visible = true;
+
         }
 
         private void game_Down(object sender, KeyEventArgs e)
@@ -69,49 +83,56 @@ namespace FlappyBird_Game
             }
             else if (e.KeyCode == Keys.Enter)
             {
+                label2.Visible = false;
+
                 if (!isGameStarted)
                 {
                     isGameStarted = true;
 
-                    // Oyuncunun seçtiği zorluğa göre hızı ayarla
-                    if (comboBox_Difficulty.SelectedItem.ToString() == "Kolay")
-                    {
-                        pipeSpeed = 5;
-                    }
-                    else if (comboBox_Difficulty.SelectedItem.ToString() == "Orta")
-                    {
-                        pipeSpeed = 8;
-                    }
-                    else if (comboBox_Difficulty.SelectedItem.ToString() == "Zor")
-                    {
-                        pipeSpeed = 12;
-                    }
+                    pipeSpeed = 15;
 
                     timer_GameControl.Start();
+
+                    Timer speedIncreaseTimer = new Timer();
+                    speedIncreaseTimer.Interval = 15000; // 15 seconds
+                    speedIncreaseTimer.Tick += SpeedIncreaseTimer_Tick;
+                    speedIncreaseTimer.Start();
                 }
             }
+        }
+
+        private void SpeedIncreaseTimer_Tick(object sender, EventArgs e)
+        {
+            pipeSpeed += 2;
+           
         }
 
         private void game_Up(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
             {
-                gravity = 5;
+                gravity = 10;
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Zorluk seçeneklerini ekleyin
-            comboBox_Difficulty.Items.Add("Kolay");
-            comboBox_Difficulty.Items.Add("Orta");
-            comboBox_Difficulty.Items.Add("Zor");
 
+        }
 
-            comboBox_Difficulty.DropDownStyle = ComboBoxStyle.DropDownList;
+        private void label2_Click(object sender, EventArgs e)
+        {
 
-            // Varsayılan olarak Orta zorluk seçili olsun
-            comboBox_Difficulty.SelectedItem = "Orta";
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -19,3 +19,13 @@ C:\Users\Onur\Desktop\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\Flapp
 C:\Users\Onur\Desktop\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.CoreCompileInputs.cache
 C:\Users\Onur\Desktop\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.exe
 C:\Users\Onur\Desktop\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.pdb
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\bin\Debug\FlappyBird_Game.exe.config
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\bin\Debug\FlappyBird_Game.exe
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\bin\Debug\FlappyBird_Game.pdb
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.AssemblyReference.cache
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.Form1.resources
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.Properties.Resources.resources
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.GenerateResource.cache
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.CoreCompileInputs.cache
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.exe
+C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.pdb
