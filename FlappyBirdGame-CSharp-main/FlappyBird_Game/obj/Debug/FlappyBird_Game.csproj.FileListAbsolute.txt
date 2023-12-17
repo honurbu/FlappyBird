@@ -29,3 +29,13 @@ C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\
 C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.CoreCompileInputs.cache
 C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.exe
 C:\Users\Oem\Desktop\FlappyBird-main\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.pdb
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\bin\Debug\FlappyBird_Game.exe.config
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\bin\Debug\FlappyBird_Game.exe
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\bin\Debug\FlappyBird_Game.pdb
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.AssemblyReference.cache
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.Form1.resources
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.Properties.Resources.resources
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.GenerateResource.cache
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.csproj.CoreCompileInputs.cache
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.exe
+C:\Users\doguk\OneDrive\Masaüstü\Flappy\FlappyBird\FlappyBirdGame-CSharp-main\FlappyBird_Game\obj\Debug\FlappyBird_Game.pdb

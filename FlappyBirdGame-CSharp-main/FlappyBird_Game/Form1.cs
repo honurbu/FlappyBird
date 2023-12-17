@@ -24,7 +24,7 @@ namespace FlappyBird_Game
                 pictureBox_Bird.Top += gravity;
                 pictureBox_Bottom.Left -= pipeSpeed;
                 picturebox_top.Left -= pipeSpeed;
-                label1.Text = "SCORE: " + score;
+                label1.Text = "SCORE: " + (score / 2);
 
                 if (pictureBox_Bottom.Left < -150)
                 {
@@ -45,7 +45,7 @@ namespace FlappyBird_Game
 
                 if (score > highestScore)
                 {
-                    highestScore = score;
+                    highestScore = (score / 2);
                 }
             }
         }
@@ -83,22 +83,31 @@ namespace FlappyBird_Game
             }
             else if (e.KeyCode == Keys.Enter)
             {
-                label2.Visible = false;
+         
 
                 if (!isGameStarted)
                 {
-                    isGameStarted = true;
-
-                    pipeSpeed = 15;
-
-                    timer_GameControl.Start();
-
-                    Timer speedIncreaseTimer = new Timer();
-                    speedIncreaseTimer.Interval = 15000; // 15 seconds
-                    speedIncreaseTimer.Tick += SpeedIncreaseTimer_Tick;
-                    speedIncreaseTimer.Start();
+                    startANewGame();
                 }
             }
+        }
+
+        private void startANewGame()
+        {
+            isGameStarted = true;
+
+            label2.Visible = false;
+            pictureBox1.Visible = false;
+
+
+            pipeSpeed = 15;
+
+            timer_GameControl.Start();
+
+            Timer speedIncreaseTimer = new Timer();
+            speedIncreaseTimer.Interval = 15000; // 15 seconds
+            speedIncreaseTimer.Tick += SpeedIncreaseTimer_Tick;
+            speedIncreaseTimer.Start();
         }
 
         private void SpeedIncreaseTimer_Tick(object sender, EventArgs e)
@@ -122,7 +131,7 @@ namespace FlappyBird_Game
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            startANewGame();
         }
 
         private void label3_Click(object sender, EventArgs e)
